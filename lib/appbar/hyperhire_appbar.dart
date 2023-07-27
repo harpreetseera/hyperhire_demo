@@ -2,23 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hyperhire_assignment/hyperhire.dart';
 
+/// Createed a custom appbar for the application so that any type of customisation remains segregated
 class HyperHireAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HyperHireAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
+    const appBarTitle = "자유톡";
     return AppBar(
       title: const Text(
-        "자유톡",
+        appBarTitle,
         style: TextStyle(
           fontSize: 16,
           fontWeight: FontWeight.bold,
         ),
       ),
-      leading: IconButton(
-        onPressed: () {},
-        icon: const Icon(Icons.arrow_back_ios_rounded),
-      ),
+      leading: const Icon(Icons.arrow_back_ios_rounded),
       actions: [
         Padding(
           padding: const EdgeInsets.symmetric(
