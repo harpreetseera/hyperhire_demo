@@ -159,7 +159,7 @@ class FeedCard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 46.0, right: 16),
+                padding: const EdgeInsets.only(left: 46.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -171,7 +171,9 @@ class FeedCard extends StatelessWidget {
                       tickAvailable: false,
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 46.0, right: 16),
+                      padding: const EdgeInsets.only(
+                        left: 46.0,
+                      ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
