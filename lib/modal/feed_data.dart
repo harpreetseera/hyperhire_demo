@@ -1,3 +1,4 @@
+/// Modal class to store the data to be shown as feed. 
 class FeedDataItem {
   final String title;
   final String commentTitle;

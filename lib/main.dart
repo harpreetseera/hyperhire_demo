@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hyperhire_assignment/appColors.dart';
+import 'package:hyperhire_assignment/app_colors.dart';
 import 'package:hyperhire_assignment/screens/homepage.dart';
 
 void main() {

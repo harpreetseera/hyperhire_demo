@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
+///All the colors being used in the app are mentioned here.
 class AppColors {
   static const Color subPartColor = Color(0xff919EB6);
   static const Color appColor = Color(0xff01B99F);

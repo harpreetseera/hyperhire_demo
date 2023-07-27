@@ -1,5 +1,6 @@
 import 'package:hyperhire_assignment/modal/feed_data.dart';
 
+///Main config file that contains the important data related to the applications. All the constant are mentioned here.
 class AppData {
   static const String iconAssetUrl = "assets/icons/";
   static const String bellIconUrl = "${iconAssetUrl}bell.svg";
@@ -11,6 +12,9 @@ class AppData {
   static String saveIconAssetUrl = "${iconAssetUrl}save.svg";
   static String threeDotIconAssetUrl = "${iconAssetUrl}three_dot.svg";
   static String imageIconAssetUrl = "${iconAssetUrl}image.svg";
+
+  static const String bottombarActionText = "댓글을 남겨주세요.";
+  static const String bottombarTrailingActionText = "등록";
 
   static List<FeedDataItem> mockData = [
     FeedDataItem(
