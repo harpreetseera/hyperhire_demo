@@ -10,6 +10,7 @@ class HyperHireAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     const appBarTitle = "자유톡";
     return AppBar(
+      centerTitle: true,
       title: const Text(
         appBarTitle,
         style: TextStyle(
